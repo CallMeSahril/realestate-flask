@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pillar Property Dashboard</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="{{ url_for('static', filename='js/controller.js') }}"></script>
+</head>
+
+<body class="flex">
+
+  <!-- Sidebar -->
+  <aside class="w-64 h-screen bg-blue-900 text-white">
+    <div class="p-4 text-2xl font-bold border-b border-blue-700">RealEstate</div>
+    <nav class="mt-4">
+      <a href="#" data-view="dashboard" class="block px-4 py-2 hover:bg-blue-700">Dashboard</a>
+      <a href="#" data-view="properties" class="block px-4 py-2 hover:bg-blue-700">Properties</a>
+      <a href="#" data-view="recommendations" class="block px-4 py-2 hover:bg-blue-700">Recommendations</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-6 bg-gray-50" id="view-container">
+    <h1 class="text-xl font-bold text-gray-700">Loading...</h1>
+  </main>
+
+</body>
+
+</html>

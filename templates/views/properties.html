@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manajemen Properti</title>
+  <style>
+    @media print {
+      form, .text-right, button:not(.print-allowed) {
+        display: none !important;
+      }
+      table {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="text-2xl font-bold text-gray-800 mb-4">🏘️ Manajemen Properti</h1>
+
+  <!-- Form Tambah Properti -->
+  <form action="/add-property" method="POST" class="bg-white p-4 rounded mb-6 shadow border grid grid-cols-1 md:grid-cols-3 gap-4">
+    <input name="title" required placeholder="Judul Properti" class="border p-2 rounded">
+    <input name="location" required placeholder="Lokasi" class="border p-2 rounded">
+    <select name="type" class="border p-2 rounded">
+      <option>Rumah</option><option>Apartemen</option><option>Ruko</option>
+    </select>
+    <input name="price" type="number" placeholder="Harga" class="border p-2 rounded">
+    <input name="building_size" type="number" placeholder="Ukuran (m²)" class="border p-2 rounded">
+    <input name="num_rooms" type="number" placeholder="Kamar" class="border p-2 rounded">
+    <input name="latitude" type="text" placeholder="Latitude" class="border p-2 rounded">
+    <input name="longitude" type="text" placeholder="Longitude" class="border p-2 rounded">
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded col-span-1 md:col-span-3">Tambah Properti</button>
+  </form>
+
+  <!-- Tombol Print -->
+  <div class="mb-4 text-right">
+    <button onclick="printTabel()" class="bg-green-600 text-white px-4 py-2 rounded print-allowed">🖨️ Cetak Tabel</button>
+  </div>
+
+  <!-- Tabel -->
+  <table class="min-w-full bg-white rounded shadow border border-gray-200">
+    <thead>
+      <tr class="bg-gray-100 text-left text-sm text-gray-600 uppercase">
+        <th class="px-4 py-2">No.</th>
+        <th class="px-4 py-2">Judul</th>
+        <th class="px-4 py-2">Lokasi</th>
+        <th class="px-4 py-2">Tipe</th>
+        <th class="px-4 py-2">Harga</th>
+        <th class="px-4 py-2">Aksi</th>
+      </tr>
+    </thead>
+    <tbody class="text-sm text-gray-700 divide-y divide-gray-200">
+      {% for p in properties %}
+      <tr>
+        <td class="px-4 py-2">{{ loop.index }}</td>
+        <td class="px-4 py-2">{{ p.title }}</td>
+        <td class="px-4 py-2">{{ p.location }}</td>
+        <td class="px-4 py-2">{{ p.type }}</td>
+        <td class="px-4 py-2">Rp{{ '{:,.0f}'.format(p.price) }}</td>
+        <td class="px-4 py-2">
+          <button class="text-red-600 hover:underline" onclick="hapusProperti({{p.id}})">Hapus</button>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <script>
+    function hapusProperti(id) {
+      if (confirm("Yakin ingin menghapus properti ini?")) {
+        fetch(`/delete-property/${id}`, {
+          method: "DELETE"
+        }).then(res => {
+          if (res.ok) {
+            alert("Properti berhasil dihapus!");
+            location.reload();
+          } else {
+            alert("Gagal menghapus properti.");
+          }
+        });
+      }
+    }
+
+    function printTabel() {
+      window.print();
+    }
+  </script>
+</body>
+</html>

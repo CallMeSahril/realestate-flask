@@ -1,0 +1,42 @@
+<h1 class="text-2xl font-bold mb-4">✨ Rekomendasi Properti</h1>
+
+<!-- Form Preferensi -->
+<form id="recommendation-form" class="bg-white p-4 rounded shadow border space-y-4 mb-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <select id="preferred_location" class="border p-2 rounded w-full">
+      <option value="">Pilih lokasi...</option>
+    </select>
+
+    <select id="preferred_type" class="border p-2 rounded w-full">
+      <option value="">Pilih tipe properti...</option>
+      <option>Rumah</option>
+      <option>Apartemen</option>
+      <option>Ruko</option>
+    </select>
+
+    <input type="number" id="budget" placeholder="Budget (Rp)" class="border p-2 rounded w-full">
+    <input type="number" id="building_size" placeholder="Ukuran (m²)" class="border p-2 rounded w-full">
+    <input type="number" id="num_rooms" placeholder="Jumlah Kamar" class="border p-2 rounded w-full">
+  </div>
+
+  <div>
+    <label class="text-sm block mb-1">Kategori Prioritas</label>
+    <select id="priority_category" class="border p-2 rounded w-full">
+      <option value="balanced">Seimbang</option>
+      <option value="location">Lokasi lebih penting</option>
+      <option value="type">Tipe lebih penting</option>
+      <option value="price">Harga lebih penting</option>
+      <option value="size">Ukuran lebih penting</option>
+      <option value="rooms">Jumlah kamar lebih penting</option>
+    </select>
+  </div>
+
+  <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+    🔍 Cari Rekomendasi
+  </button>
+</form>
+
+<!-- Hasil Rekomendasi -->
+<div id="recommendation-results" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+
+

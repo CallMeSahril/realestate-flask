@@ -1,0 +1,51 @@
+id,title,location,price,building_size,num_rooms,type,latitude,longitude,city
+1,Rumah Nyaman No.1 - Cibubur,Cibubur,885774015,48,5,Rumah,-6.352992388135024,106.87328325932901,Kota Jakarta Timur
+2,Rumah Nyaman No.2 - Bekasi,Bekasi,844636207,53,2,Rumah,-6.24545201431145,106.97616249781959,Kota Bekasi
+3,Apartemen Nyaman No.3 - Bekasi,Bekasi,436561635,73,4,Rumah,-6.250589676181728,106.98536993865908,Kota Bekasi
+4,Rumah Nyaman No.4 - Bogor,Bogor,1123219250,77,5,Apartemen,-6.595357429626521,106.81880330891761,Kota Bogor
+5,Ruko Nyaman No.5 - Depok,Depok,927851165,112,4,Rumah,-6.409612621592249,106.80155820459075,Kota Depok
+6,Rumah Nyaman No.6 - Depok,Depok,978178208,48,4,Rumah,-6.404365203827274,106.79534681030228,Kota Depok
+7,Ruko Nyaman No.7 - Depok,Depok,654849239,98,4,Rumah,-6.399773490512856,106.78596262793681,Kota Depok
+8,Rumah Nyaman No.8 - Bekasi,Bekasi,455028177,109,2,Apartemen,-6.247085655129664,106.9932026125655,Kota Bekasi
+9,Rumah Nyaman No.9 - Depok,Depok,701093717,73,4,Rumah,-6.410916549287722,106.78639452686384,Kota Depok
+10,Rumah Nyaman No.10 - Tangerang,Tangerang,579241398,46,2,Apartemen,-6.184004874228234,106.62893202721403,Kota Tangerang
+11,Rumah Nyaman No.11 - Depok,Depok,709566792,74,3,Rumah,-6.411584825245463,106.79578185826014,Kota Depok
+12,Ruko Nyaman No.12 - Cibubur,Cibubur,1060314581,78,3,Rumah,-6.356360451287956,106.87799098448879,Kota Jakarta Timur
+13,Apartemen Nyaman No.13 - Bogor,Bogor,1103171851,75,3,Ruko,-6.592138017841443,106.82510393508423,Kota Bogor
+14,Rumah Nyaman No.14 - Bogor,Bogor,1367338622,64,3,Ruko,-6.596252489367683,106.81388450659396,Kota Bogor
+15,Ruko Nyaman No.15 - Depok,Depok,1294403053,110,4,Rumah,-6.402190919851235,106.80398855969301,Kota Depok
+16,Ruko Nyaman No.16 - Depok,Depok,1202706762,67,3,Ruko,-6.398727787924176,106.78447329853607,Kota Depok
+17,Ruko Nyaman No.17 - Depok,Depok,618171682,43,5,Ruko,-6.401823308472201,106.79635012905399,Kota Depok
+18,Apartemen Nyaman No.18 - Tangerang,Tangerang,992976381,71,2,Apartemen,-6.171352232629275,106.62900580721157,Kota Tangerang
+19,Ruko Nyaman No.19 - Tangerang,Tangerang,1287418241,91,2,Rumah,-6.169570740699597,106.63850776696974,Kota Tangerang
+20,Ruko Nyaman No.20 - Bekasi,Bekasi,609239448,70,2,Ruko,-6.246059996274016,106.99034019180888,Kota Bekasi
+21,Ruko Nyaman No.21 - Bekasi,Bekasi,818294587,50,4,Ruko,-6.237181302684749,106.98259651262057,Kota Bekasi
+22,Rumah Nyaman No.22 - Tangerang,Tangerang,477047635,55,3,Apartemen,-6.170816836850217,106.62266928860267,Kota Tangerang
+23,Ruko Nyaman No.23 - Cibubur,Cibubur,798163440,71,5,Ruko,-6.356316263701666,106.88758362138648,Kota Jakarta Timur
+24,Rumah Nyaman No.24 - Bogor,Bogor,722354323,59,4,Rumah,-6.5936371456419565,106.8221004463331,Kota Bogor
+25,Apartemen Nyaman No.25 - Cibubur,Cibubur,430593722,65,2,Rumah,-6.3588212810943725,106.88729877843221,Kota Jakarta Timur
+26,Rumah Nyaman No.26 - Cibubur,Cibubur,812525480,54,4,Apartemen,-6.351652802186452,106.88969815818595,Kota Jakarta Timur
+27,Rumah Nyaman No.27 - Cibubur,Cibubur,817533564,105,4,Rumah,-6.347713991589892,106.8847210916447,Kota Jakarta Timur
+28,Ruko Nyaman No.28 - Cibubur,Cibubur,1100979842,69,5,Rumah,-6.35178170317785,106.87227222095656,Kota Jakarta Timur
+29,Ruko Nyaman No.29 - Depok,Depok,514623830,57,2,Ruko,-6.399919708531122,106.78794909497486,Kota Depok
+30,Apartemen Nyaman No.30 - Depok,Depok,589947434,62,3,Rumah,-6.404821152176865,106.79216640116474,Kota Depok
+31,Rumah Nyaman No.31 - Depok,Depok,1309960203,77,2,Apartemen,-6.395268651477507,106.79825446948175,Kota Depok
+32,Rumah Nyaman No.32 - Tangerang,Tangerang,1365718231,68,2,Apartemen,-6.178841689953572,106.63202487588278,Kota Tangerang
+33,Rumah Nyaman No.33 - Tangerang,Tangerang,631717733,105,3,Apartemen,-6.173247836055593,106.62403621994649,Kota Tangerang
+34,Rumah Nyaman No.34 - Tangerang,Tangerang,798979342,99,2,Apartemen,-6.1797198858759,106.63438344622037,Kota Tangerang
+35,Apartemen Nyaman No.35 - Bekasi,Bekasi,915871575,120,4,Apartemen,-6.241158849956146,106.99272313198101,Kota Bekasi
+36,Ruko Nyaman No.36 - Tangerang,Tangerang,430077247,42,2,Ruko,-6.177653052484759,106.63992809425473,Kota Tangerang
+37,Apartemen Nyaman No.37 - Depok,Depok,518386320,84,3,Ruko,-6.408208185940318,106.80052357977051,Kota Depok
+38,Ruko Nyaman No.38 - Tangerang,Tangerang,667054745,61,5,Apartemen,-6.184415207621783,106.62236858427092,Kota Tangerang
+39,Rumah Nyaman No.39 - Cibubur,Cibubur,943639231,109,5,Ruko,-6.349771606088651,106.88966179644832,Kota Jakarta Timur
+40,Rumah Nyaman No.40 - Tangerang,Tangerang,1063445533,112,5,Apartemen,-6.169005046504578,106.62586358229359,Kota Tangerang
+41,Rumah Nyaman No.41 - Bekasi,Bekasi,1244948655,83,4,Apartemen,-6.2327198606368475,106.97927359932002,Kota Bekasi
+42,Apartemen Nyaman No.42 - Depok,Depok,1491203539,53,3,Ruko,-6.399927966080462,106.78534826562439,Kota Depok
+43,Apartemen Nyaman No.43 - Bekasi,Bekasi,509880329,40,5,Rumah,-6.236246063368478,106.98624112644849,Kota Bekasi
+44,Rumah Nyaman No.44 - Cibubur,Cibubur,495461160,114,2,Rumah,-6.363661065888443,106.8819113685217,Kota Jakarta Timur
+45,Apartemen Nyaman No.45 - Bogor,Bogor,1211844336,90,2,Rumah,-6.593371196736411,106.82040708599745,Kota Bogor
+46,Rumah Nyaman No.46 - Depok,Depok,1305798115,65,2,Ruko,-6.398120431753315,106.78847301626384,Kota Depok
+47,Ruko Nyaman No.47 - Depok,Depok,1150242960,103,5,Apartemen,-6.3994556504655415,106.8001807311916,Kota Depok
+48,Rumah Nyaman No.48 - Depok,Depok,1298217221,95,4,Apartemen,-6.402003761865033,106.79576981406153,Kota Depok
+49,Rumah Nyaman No.49 - Bogor,Bogor,830688542,93,4,Apartemen,-6.60408731654585,106.82029272594893,Kota Bogor
+50,Rumah Nyaman No.50 - Bogor,Bogor,1455669575,94,5,Ruko,-6.5918849403616075,106.82421357956329,Kota Bogor

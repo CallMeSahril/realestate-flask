@@ -12,7 +12,7 @@ function setupRecommendationsView() {
 
   async function loadLocations() {
     try {
-      const res = await fetch("/locations");
+      const res = await fetch("locations");
       const locations = await res.json();
       selectLocation.innerHTML = '<option value="">Pilih lokasi...</option>';
       locations.forEach(loc => {
